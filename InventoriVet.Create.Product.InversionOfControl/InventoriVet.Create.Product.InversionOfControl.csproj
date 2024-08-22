@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoriVet.EFCore.Repositories\InventoriVet.EFCore.Repositories.csproj" />
+    <ProjectReference Include="..\InventoryVet.CreateProduct.Controllers\InventoryVet.CreateProduct.Controllers.csproj" />
+    <ProjectReference Include="..\InventoryVet.CreateProduct.Presenters\InventoryVet.CreateProduct.Presenters.csproj" />
+    <ProjectReference Include="..\InventoryVet.CreateProduct.UseCases\InventoryVet.CreateProduct.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
